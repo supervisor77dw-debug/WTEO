@@ -1,0 +1,21 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal luxury icon: Network / Community -->
+  <defs>
+    <style>
+      .icon-stroke { fill: none; stroke: #D4AF37; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #D4AF37; }
+    </style>
+  </defs>
+  <!-- Center node -->
+  <circle cx="32" cy="32" r="6" class="icon-fill"/>
+  <!-- Outer nodes -->
+  <circle cx="16" cy="18" r="4" class="icon-fill" opacity="0.7"/>
+  <circle cx="48" cy="18" r="4" class="icon-fill" opacity="0.7"/>
+  <circle cx="16" cy="46" r="4" class="icon-fill" opacity="0.7"/>
+  <circle cx="48" cy="46" r="4" class="icon-fill" opacity="0.7"/>
+  <!-- Connecting lines -->
+  <line x1="32" y1="32" x2="16" y2="18" class="icon-stroke"/>
+  <line x1="32" y1="32" x2="48" y2="18" class="icon-stroke"/>
+  <line x1="32" y1="32" x2="16" y2="46" class="icon-stroke"/>
+  <line x1="32" y1="32" x2="48" y2="46" class="icon-stroke"/>
+</svg>

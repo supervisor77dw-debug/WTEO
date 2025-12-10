@@ -31,15 +31,15 @@ const pages = [
     content: `
       <h2>Unsere Zertifizierungsstufen</h2>
       <div class="card-grid">
-        <div class="card">
+        <div class="card card--lux glass">
           <h3>World Elite Artist</h3>
           <p>Zeigen Sie der Welt, dass Ihre Kunst meisterhaft ist. Für erfahrene PMU-Artists mit nachweisbarer Qualität.</p>
         </div>
-        <div class="card">
+        <div class="card card--lux glass">
           <h3>World Elite Trainer</h3>
           <p>Für Ausbilder, die nicht nur können, sondern auch lehren. Pädagogische Kompetenz trifft auf fachliche Brillanz.</p>
         </div>
-        <div class="card">
+        <div class="card card--lux glass">
           <h3>World Elite Academy</h3>
           <p>Die höchste Auszeichnung für Ausbildungsinstitute. Hier lernen die Meister von morgen.</p>
         </div>
@@ -51,7 +51,7 @@ const pages = [
         <li style="margin-bottom: 0.5rem;"><strong>Zertifizierung:</strong> Nach Bestehen erhalten Sie Ihr Siegel und Eintrag ins Register.</li>
       </ol>
       <div class="text-center" style="margin-top: 2rem;">
-        <a href="/bewerbung/" class="btn">Jetzt zertifizieren lassen</a>
+        <a href="/bewerbung/" class="btn btn--primary">Jetzt zertifizieren lassen</a>
       </div>
     `
   },
@@ -228,15 +228,15 @@ const pages = [
     content: `
       <h2>Our Certification Levels</h2>
       <div class="card-grid">
-        <div class="card">
+        <div class="card card--lux glass">
           <h3>World Elite Artist</h3>
           <p>Show the world that your art is masterful. For experienced PMU artists with proven quality.</p>
         </div>
-        <div class="card">
+        <div class="card card--lux glass">
           <h3>World Elite Trainer</h3>
           <p>For instructors who not only do but also teach. Pedagogical competence meets technical brilliance.</p>
         </div>
-        <div class="card">
+        <div class="card card--lux glass">
           <h3>World Elite Academy</h3>
           <p>The highest distinction for training institutes. This is where tomorrow's masters learn.</p>
         </div>
@@ -248,7 +248,7 @@ const pages = [
         <li style="margin-bottom: 0.5rem;"><strong>Certify:</strong> Upon passing, you receive your seal and registry entry.</li>
       </ol>
       <div class="text-center" style="margin-top: 2rem;">
-        <a href="/en/apply/" class="btn">Get Certified Now</a>
+        <a href="/en/apply/" class="btn btn--primary">Get Certified Now</a>
       </div>
     `
   },
@@ -447,6 +447,7 @@ const getTemplate = (data, pth) => {
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/prestige.css" />
     <title>${data.title} | WTEO</title>
   </head>
   <body>

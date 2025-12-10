@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal luxury icon: Quality / Excellence -->
+  <defs>
+    <style>
+      .icon-stroke { fill: none; stroke: #D4AF37; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #D4AF37; }
+    </style>
+  </defs>
+  <!-- Shield outline -->
+  <path d="M 32 12 L 20 20 L 20 34 Q 20 48 32 54 Q 44 48 44 34 L 44 20 Z" class="icon-stroke"/>
+  <!-- Checkmark inside -->
+  <path d="M 26 34 L 30 40 L 38 28" class="icon-stroke" stroke-width="1.8"/>
+</svg>

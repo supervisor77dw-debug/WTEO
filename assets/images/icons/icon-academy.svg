@@ -1,0 +1,20 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal luxury icon: Academy / Institution -->
+  <defs>
+    <style>
+      .icon-stroke { fill: none; stroke: #D4AF37; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #D4AF37; }
+    </style>
+  </defs>
+  <!-- Building outline -->
+  <path d="M 18 50 L 18 18 Q 32 8 46 18 L 46 50" class="icon-stroke"/>
+  <!-- Roof peak -->
+  <path d="M 18 18 L 32 8 L 46 18" class="icon-stroke"/>
+  <!-- Door -->
+  <rect x="28" y="40" width="8" height="10" class="icon-stroke"/>
+  <!-- Windows (grid) -->
+  <rect x="22" y="26" width="5" height="5" class="icon-stroke"/>
+  <rect x="37" y="26" width="5" height="5" class="icon-stroke"/>
+  <rect x="22" y="34" width="5" height="5" class="icon-stroke"/>
+  <rect x="37" y="34" width="5" height="5" class="icon-stroke"/>
+</svg>
