@@ -1,5 +1,3 @@
-import './style.css'
-
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- Sticky Header Effect ---
