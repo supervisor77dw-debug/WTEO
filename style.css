@@ -270,7 +270,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1550534791-2677d63f05b9?q=80&w=2070&auto=format&fit=crop');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Home.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

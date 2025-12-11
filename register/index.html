@@ -1,121 +1,96 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="World Elite Register: Das offizielle Verzeichnis der WTEO-zertifizierten Profis. Überprüfen Sie hier Artists, Trainer und Academies." />
-  <title>WTEO Register – Verified Elite PMU Professionals</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="container nav-container">
-      <a href="/" class="logo">WTEO</a>
-      <div class="menu-toggle">☰</div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="/" class="nav-link">Home</a></li>
-          <li><a href="/ueber-wteo/" class="nav-link">Über WTEO</a></li>
-          <li><a href="/zertifizierungen/" class="nav-link">Zertifizierungen</a></li>
-          <li><a href="/bewerbung/" class="nav-link">Bewerbung</a></li>
-          <li><a href="/events-awards/" class="nav-link">Events</a></li>
-          <li><a href="/register/" class="nav-link active">Register</a></li>
-          <li><a href="/trainer-partner/" class="nav-link">Partner</a></li>
-          <li><a href="/community/" class="nav-link">Community</a></li>
-          <li><a href="/kontakt/" class="nav-link">Kontakt</a></li>
-          <li class="lang-switch">
-            <a href="/" class="active">DE</a>
-            <a href="/en/">EN</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero"
-      style="min-height: 50vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop'); background-size: cover; background-position: center;">
-      <div class="hero-content text-center">
-        <h1>World Elite Register</h1>
-        <p style="font-size: 1.25rem; max-width: 800px; margin: 0 auto;">Wer hier steht, gehört zur Elite. Dieses
-          Register zeigt geprüfte Profis, die nicht nur Qualität behaupten – sondern beweisen.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>World Elite Register | WTEO</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="/" class="logo">WTEO</a>
+        <div class="menu-toggle">☰</div>
+        <nav>
+            
+    <ul class="nav-links">
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/ueber-wteo/" class="nav-link ">Über WTEO</a></li>
+        <li><a href="/zertifizierungen/" class="nav-link ">Zertifizierungen</a></li>
+        <li><a href="/bewerbung/" class="nav-link ">Bewerbung</a></li>
+        <li><a href="/events-awards/" class="nav-link ">Events</a></li>
+        <li><a href="/register/" class="nav-link active">Register</a></li>
+        <li><a href="/trainer-partner/" class="nav-link ">Partner</a></li>
+        <li><a href="/community/" class="nav-link ">Community</a></li>
+        <li><a href="/kontakt/" class="nav-link ">Kontakt</a></li>
+        <li class="lang-switch">
+          <a href="/" class="active">DE</a>
+          <a href="/en/">EN</a>
+        </li>
+    </ul>
+  
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="section fade-in-section">
+    <main>
+      <section class="hero" style="min-height: 60vh; height: auto; padding: 100px 0;">
+        <div class="hero-content">
+          <h1>World Elite Register</h1>
+          <p>Die offizielle Datenbank zertifizierter Experten.</p>
+        </div>
+      </section>
+
+      <section class="section fade-in-section">
+        <div class="container">
+            
+      <h2>Das Register</h2>
+      <p>Überprüfen Sie hier den Status eines Mitglieds. Transparenz schafft Vertrauen.</p>
+      <div class="card">
+        <input type="text" class="form-control" placeholder="Nach Name oder ID suchen..." style="margin-bottom: 1rem;">
+        <button class="btn">Suchen</button>
+      </div>
+      <p style="margin-top: 2rem; font-size: 0.9rem; color: #666;">Alle Daten sind tagesaktuell geprüft.</p>
+    
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
       <div class="container">
-        <div class="content-wrapper text-center">
-
-          <!-- Search Mockup (Optional) -->
-          <div style="margin-bottom: 4rem;">
-            <input type="text" placeholder="Name oder Zertifikatsnummer suchen..." class="form-control"
-              style="max-width: 400px; display: inline-block;">
-            <button class="btn" style="padding: 1rem 1.5rem;">Suchen</button>
-          </div>
-
-          <div
-            style="text-align: left; background-color: var(--color-graphite); padding: 2rem; border-radius: 4px; margin-bottom: 4rem;">
-            <h3 style="color: var(--color-gold); margin-bottom: 1.5rem;">Was das Register zeigt:</h3>
-            <ul class="benefits-list" style="display: block;">
-              <li>Zertifikatstyp: Artist / Trainer / Academy</li>
-              <li>Region / Standort</li>
-              <li>Gültigkeitsstatus</li>
-              <li>Zertifikatsnummer</li>
-              <li>Optional: Link zum Profil</li>
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>WTEO</h4>
+            <ul class="footer-links">
+                <li><a href="/ueber-wteo/">Über uns</a></li>
+                   <li><a href="/zertifizierungen/">Zertifizierungen</a></li>
+                   <li><a href="/register/">Elite Register</a></li>
             </ul>
           </div>
-
-          <div style="margin-bottom: 3rem;">
-            <h2>Qualitätsanspruch</h2>
-            <p>Nur aktiv zertifizierte Mitglieder werden gelistet. Alle Einträge werden regelmäßig überprüft – denn
-              Exzellenz bedeutet Verantwortung.</p>
+          <div class="footer-col">
+            <h4>Community</h4>
+            <ul class="footer-links">
+                <li><a href="/events-awards/">Events</a></li>
+                   <li><a href="/trainer-partner/">Trainer Programm</a></li>
+                   <li><a href="/community/">Netzwerk</a></li>
+            </ul>
           </div>
-
-          <a href="/zertifizierungen/" class="btn">Jetzt zertifizieren lassen</a>
-
+           <div class="footer-col">
+            <h4>Rechtliches</h4>
+            <ul class="footer-links">
+                <li><a href="/rechtliches/">Datenschutz & Impressum</a></li>
+                   <li><a href="/kontakt/">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2025 World Trainer Elite Organisation. All Rights Reserved.
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h4>WTEO</h4>
-          <ul class="footer-links">
-            <li><a href="/ueber-wteo/">Über uns</a></li>
-            <li><a href="/zertifizierungen/">Zertifizierungen</a></li>
-            <li><a href="/register/">Elite Register</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Community</h4>
-          <ul class="footer-links">
-            <li><a href="/events-awards/">Events</a></li>
-            <li><a href="/trainer-partner/">Trainer Programm</a></li>
-            <li><a href="/community/">Netzwerk</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Rechtliches</h4>
-          <ul class="footer-links">
-            <li><a href="/rechtliches/">Datenschutz & Impressum</a></li>
-            <li><a href="/kontakt/">Kontakt</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2025 World Trainer Elite Organisation. All Rights Reserved.
-      </div>
-    </div>
-  </footer>
-
-  <script type="module" src="/main.js"></script>
-  <div class="scroll-to-top" onclick="window.scrollTo(0,0)">↑</div>
-</body>
-
+    </footer>
+    
+    <script type="module" src="/main.js"></script>
+    <div class="scroll-to-top" onclick="window.scrollTo(0,0)">↑</div>
+  </body>
 </html>
