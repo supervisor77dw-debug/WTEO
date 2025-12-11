@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.08);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(212,175,55,0.04);stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  <!-- Floating glass circle (hero visual placeholder) -->
+  <circle cx="400" cy="300" r="200" fill="none" stroke="rgba(212,175,55,0.15)" stroke-width="2" opacity="0.6"/>
+  <circle cx="400" cy="300" r="160" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" opacity="0.4"/>
+  <!-- Central element: Luxury shapes -->
+  <rect x="300" y="150" width="200" height="300" rx="30" fill="none" stroke="rgba(212,175,55,0.2)" stroke-width="2" filter="url(#glow)"/>
+  <!-- Decorative elements -->
+  <circle cx="250" cy="200" r="15" fill="rgba(212,175,55,0.1)"/>
+  <circle cx="550" cy="350" r="20" fill="rgba(212,175,55,0.08)"/>
+  <circle cx="400" cy="480" r="12" fill="rgba(255,255,255,0.05)"/>
+  <!-- Gold accent line -->
+  <line x1="300" y1="300" x2="500" y2="300" stroke="rgba(212,175,55,0.25)" stroke-width="1.5" opacity="0.7"/>
+</svg>

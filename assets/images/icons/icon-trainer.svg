@@ -1,0 +1,17 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal luxury icon: Trainer / Teaching -->
+  <defs>
+    <style>
+      .icon-stroke { fill: none; stroke: #D4AF37; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #D4AF37; }
+    </style>
+  </defs>
+  <!-- Person silhouette (top) -->
+  <circle cx="32" cy="16" r="6" class="icon-fill"/>
+  <path d="M 28 24 L 24 36 M 36 24 L 40 36 M 32 24 L 32 32" class="icon-stroke"/>
+  <!-- Teaching podium / stand -->
+  <rect x="20" y="40" width="24" height="14" rx="1" class="icon-stroke"/>
+  <!-- Hands / presentation -->
+  <path d="M 16 38 L 12 32" class="icon-stroke"/>
+  <path d="M 48 38 L 52 32" class="icon-stroke"/>
+</svg>
