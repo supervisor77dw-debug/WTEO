@@ -286,6 +286,7 @@ img {
 .hero.hero--trainer-partner { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Partner.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
 .hero.hero--rechtlich { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Recht.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
 .hero.hero--ueber-wteo { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Über uns.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--register { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Register.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
 
 .hero-content {
   max-width: 900px;

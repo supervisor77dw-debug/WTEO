@@ -415,6 +415,7 @@ const getTemplate = (data, pth) => {
     if (path.includes('events') || path.includes('events-awards')) return 'hero--events';
     if (path.includes('kontakt') || path.includes('contact')) return 'hero--kontakt';
     if (path.includes('trainer') || path.includes('partner')) return 'hero--trainer-partner';
+    if (path.includes('register')) return 'hero--register';
     if (path.includes('rechtliches') || path.includes('legal')) return 'hero--rechtlich';
     if (path.includes('ueber') || path.includes('about')) return 'hero--ueber-wteo';
     return '';
