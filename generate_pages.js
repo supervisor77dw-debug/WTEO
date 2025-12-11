@@ -407,6 +407,21 @@ const getTemplate = (data, pth) => {
   // Actually, I'll use absolute paths like /en/about/ which work in Vite dev and usually prod if configured right.
   // Using absolute paths starting with /
 
+  // Map paths to hero background classes
+  const getHeroClass = (path) => {
+    if (path.includes('zertifizierungen') || path.includes('certifications')) return 'hero--zertifizierungen';
+    if (path.includes('bewerbung') || path.includes('apply')) return 'hero--bewerbung';
+    if (path.includes('community')) return 'hero--community';
+    if (path.includes('events') || path.includes('events-awards')) return 'hero--events';
+    if (path.includes('kontakt') || path.includes('contact')) return 'hero--kontakt';
+    if (path.includes('trainer') || path.includes('partner')) return 'hero--trainer-partner';
+    if (path.includes('rechtliches') || path.includes('legal')) return 'hero--rechtlich';
+    if (path.includes('ueber') || path.includes('about')) return 'hero--ueber-wteo';
+    return '';
+  };
+
+  const heroClass = getHeroClass(pth);
+
   const nav = isEn ? `
     <ul class="nav-links">
         <li><a href="/en/" class="nav-link">Home</a></li>
@@ -462,7 +477,7 @@ const getTemplate = (data, pth) => {
     </header>
 
     <main>
-      <section class="hero" style="min-height: 60vh; height: auto; padding: 100px 0;">
+      <section class="hero ${heroClass}" style="min-height: 60vh; height: auto; padding: 100px 0;">
         <div class="hero-content">
           <h1>${data.heroTitle}</h1>
           <p>${data.heroText}</p>

@@ -277,6 +277,16 @@ img {
   padding: 0 1rem;
 }
 
+/* Page-specific hero backgrounds */
+.hero.hero--zertifizierungen { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Zertifizierung.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--bewerbung { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Bewerbung.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--community { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Community.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--events { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Event.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--kontakt { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Kontakt.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--trainer-partner { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Partner.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--rechtlich { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Recht.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+.hero.hero--ueber-wteo { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/Über uns.jpg'); background-size: cover; background-position: center; background-attachment: fixed; }
+
 .hero-content {
   max-width: 900px;
   animation: fadeIn 1.5s ease-out;
